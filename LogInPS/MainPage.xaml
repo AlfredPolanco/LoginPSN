@@ -15,21 +15,19 @@
         
         <!--PSN Image-->
         <Image Source="PSN.jpg" />
-        <StackLayout Padding="0,30,0,40">
-            <Label Text="Acess PlayStation Network"
-               TextColor="White"
-               FontSize="Medium"
-               HorizontalOptions="FillAndExpand"
-               />
-            <!--Get email-->
-            <Entry x:Name="EmailEntry"
-               Placeholder="Email address"/>
-             <!--Get Passowrd-->
-            <Entry x:Name="Passowrd"
-               IsPassword="True"
-               Placeholder="Password"/>
+        <Label Text="Acess PlayStation Network"
+                TextColor="White"
+                FontSize="Medium"
+                HorizontalOptions="FillAndExpand"
+                />
+        <!--Get email-->
+        <Entry x:Name="EmailEntry"
+            Placeholder="Email address"/>
+            <!--Get Passowrd-->
+        <Entry x:Name="Passowrd"
+            IsPassword="True"
+            Placeholder="Password"/>
             
-        </StackLayout>
         <!--Log in button-->
         <Button Text="Log In"
                 VerticalOptions="Center"
@@ -37,17 +35,11 @@
                 Clicked="Button_Clicked"/>
         
         <!--Forgot password hyperlink-->
-        <Label>
-            <Label.FormattedText>
-                <FormattedString>
-                    <Span Text="Forgot passowrd?" ForegroundColor="Black" TextDecorations="Underline"/> 
-                </FormattedString>
-            </Label.FormattedText>
-            
+        <Label TextDecorations="Underline">
+            Forgot password?
             <Label.GestureRecognizers>
                 <TapGestureRecognizer Tapped="GoSony"/>
             </Label.GestureRecognizers>
-
         </Label>
 
     </StackLayout>
