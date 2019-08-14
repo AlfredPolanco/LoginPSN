@@ -36,7 +36,7 @@
         
         <!--Forgot password hyperlink-->
         <Label TextDecorations="Underline">
-            Forgot password?
+            Text ="Forgot password?"
             <Label.GestureRecognizers>
                 <TapGestureRecognizer Tapped="GoSony"/>
             </Label.GestureRecognizers>
