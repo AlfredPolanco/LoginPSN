@@ -1,46 +1,50 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:LogInPS"
              x:Class="LogInPS.MainPage"
              BackgroundColor="Blue">
-
-    <StackLayout Padding="20,100,20,0">
-        <!--App Name title-->
-        <Label Text="PlayStation Network App"
+    
+    <ScrollView>
+        
+        <StackLayout Padding="20,100,20,0">
+            <!--App Name title-->
+            <Label Text="PlayStation Network App"
                x:Name="myAppTittle"
                TextColor="White"
                FontSize="Large"
                HorizontalOptions="Center"/>
-        
-        <!--PSN Image-->
-        <Image Source="PSN.jpg" />
-        <Label Text="Acess PlayStation Network"
+
+            <!--PSN Image-->
+            <Image Source="PSN.jpg" />
+            <Label Text="Acess PlayStation Network"
                 TextColor="White"
                 FontSize="Medium"
                 HorizontalOptions="FillAndExpand"
                 />
-        <!--Get email-->
-        <Entry x:Name="EmailEntry"
+            <!--Get email-->
+            <Entry x:Name="EmailEntry"
             Placeholder="Email address"/>
             <!--Get Passowrd-->
-        <Entry x:Name="Passowrd"
+            <Entry x:Name="Passowrd"
             IsPassword="True"
             Placeholder="Password"/>
-            
-        <!--Log in button-->
-        <Button Text="Log In"
+
+            <!--Log in button-->
+            <Button Text="Log In"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Clicked="Button_Clicked"/>
-        
-        <!--Forgot password hyperlink-->
-        <Label TextDecorations="Underline">
-            Text ="Forgot password?"
-            <Label.GestureRecognizers>
-                <TapGestureRecognizer Tapped="GoSony"/>
-            </Label.GestureRecognizers>
-        </Label>
 
-    </StackLayout>
+            <!--Forgot password hyperlink-->
+            <Label Text ="Forgot password?"
+            TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="GoSony"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+        
+    </ScrollView>
+
 </ContentPage>
