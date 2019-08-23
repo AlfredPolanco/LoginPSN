@@ -1,13 +1,43 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LogInPS.Page2">
+             x:Class="LogInPS.Page2"
+             NavigationPage.HasNavigationBar="False">
+    <!--Content page after loggin in-->
     <ContentPage.Content>
-        <StackLayout>
-            <!--Content page after loggin in-->
-            <Label Text="Welcome Playstation Network!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Image Source="psn3.jpg" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" />
+            <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" >
+                <!--Mensaje de bienvenida-->
+                <StackLayout Padding="0,50,0,0">
+                    <Label Text="Whats new"
+                           TextColor="White"
+                           FontSize="Large"
+                           HorizontalOptions="Center"/>
+                    <Label Text="Welcome to Playstation Network App, here you will be able to follow up with your game progress, thropies, Playstation Plus features and share with your friends"
+                           HorizontalOptions="Center"
+                           HorizontalTextAlignment="Center"
+                           TextColor="White"
+                           FontSize="Medium"
+                           ></Label>
+                    <!--Creacion del grid-->
+                    <Grid Padding="50,150,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="150" />
+                            <RowDefinition Height="150" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="150" />
+                        </Grid.ColumnDefinitions>
+                        <!--Aqui van los grids con las funcionalidades de la app-->
+                        <Button Text="Games" BackgroundColor="Blue" TextColor="White" FontSize="Medium" Grid.Row="0" Grid.Column="0" Clicked="GameTab"/>
+                        <Button Text="Thropies" BackgroundColor="Blue" TextColor="White" FontSize="Medium" Grid.Row="0" Grid.Column="1" />
+                        <Button Text="Friends" TextColor="White" BackgroundColor="Blue" FontSize="Medium" Grid.Row="1" Grid.Column="0" />
+                        <Button Text="PS+" TextColor="White" BackgroundColor="Blue"  FontSize="Medium" Grid.Row="1" Grid.Column="1" />
+                  </Grid>
+                </StackLayout>
+            </ScrollView>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
