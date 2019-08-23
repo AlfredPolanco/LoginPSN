@@ -77,7 +77,7 @@
             </StackLayout>
         </ScrollView>
         <StackLayout Orientation="Horizontal">
-             B<!--otones accion en la pagina-->
+             <!--Botones accion en la pagina-->
             <Button Text="DLC's"></Button>
             <Button Text="Play"></Button>
             <Button Text="Share"></Button>
