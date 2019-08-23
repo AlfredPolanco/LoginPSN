@@ -42,7 +42,7 @@
         <ScrollView>
             <StackLayout Padding="0,250,0,0">
                 <Frame WidthRequest="600"
-                   HeightRequest="1550">
+                   HeightRequest="1250">
                     <StackLayout>
                         <Label 
                         Text="Call Of Duty: Black Ops 4 - Deluxe Edition"
