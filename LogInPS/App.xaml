@@ -1,8 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LogInPS.App">
+             x:Class="LogInPS.App"
+             NavigationPage.HasNavigationBar="False">
+             <!--Esconde boton de navegacion hacia atras-->
     <Application.Resources>
 
+        <!-- Styles -->
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="Black"/>
+            <Setter Property="BarTextColor" Value="White"/>
+        </Style>
+        <!-- Styles -->
     </Application.Resources>
 </Application>
