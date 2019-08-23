@@ -1,0 +1,14 @@
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\bin\Debug\netstandard2.0\LogInPS.deps.json
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\bin\Debug\netstandard2.0\LogInPS.dll
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\bin\Debug\netstandard2.0\LogInPS.pdb
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\Page3.xaml.g.cs
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\LogInPS.csproj.CoreCompileInputs.cache
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\LogInPS.AssemblyInfoInputs.cache
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\LogInPS.AssemblyInfo.cs
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\LogInPS.dll
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\LogInPS.pdb
+C:\Users\Alfred Polanco\source\repos\LoginPS\LogInPS\LogInPS\obj\Debug\netstandard2.0\LogInPS.csprojAssemblyReference.cache
