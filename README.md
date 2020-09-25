@@ -7,7 +7,7 @@ Ingenieria de software
 ## Requerimientos:
 
 1. Visual Studio Comnunity Edition 2017
-2. Google Chrome v85.X
+2. Xamarin.Forms Version 4.1.0.673156
 3. Google Web Driverv 85.X
 3. Python 3
 3. Selenium 
