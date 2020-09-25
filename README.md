@@ -25,10 +25,8 @@ Ingenieria de software
 4. Abrir .md con visual studio 
 
     - `code .`
-    
-5. Pasar credenciales para login de Instagram, indicar @ o usuario de la persona a seguir y elegir un comentario a dejar en la foto
-    
-6. Ejecutar la app con visual studio 
+       
+5. Ejecutar la app con visual studio 
 
     
 #
